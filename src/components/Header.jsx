@@ -10,5 +10,8 @@ function Header() {
     );
   }
   
+  // const handleLogout = async () => {
+  //   await supabase.auth.signOut();
+  //   setUser(null); // Clear user state
+  // };  
   export default Header;
-  
