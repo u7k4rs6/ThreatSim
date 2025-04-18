@@ -36,7 +36,7 @@ const cards = [
     description: 'Essential tools and resources for security testing and analysis.',
     icon: Toolbox,
     action: 'Explore Tools',
-    link: '#tools'
+    link: 'https://threat-bot.vercel.app/'
   },
   {
     title: 'Community',
