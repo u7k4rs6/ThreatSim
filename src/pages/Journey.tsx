@@ -43,7 +43,7 @@ const cards = [
     description: 'Join our vibrant community of cybersecurity enthusiasts and experts.',
     icon: Users,
     action: 'Join Now',
-    link: '#community'
+    link: 'https://join.slack.com/t/threatsimworkspace/shared_invite/zt-343rmoydf-wh8qJnLu96ETbkZ9ehEk_Q'
   }
 ];
 
