@@ -61,7 +61,7 @@ function Journey() {
         </div>
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
-            Start Your Journey
+            ThreatSim
           </h1>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Begin your cybersecurity adventure with our comprehensive learning platform.
