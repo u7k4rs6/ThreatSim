@@ -25,14 +25,14 @@ const cards = [
     link: 'https://tryhackme.com/'
   },
   {
-    title: 'Threat Intelligence',
+    title: 'Threat Map',
     description: 'Monitor global cyber threats in real-time with our interactive dashboard.',
     icon: Shield,
     action: 'View Dashboard',
     link: 'https://threatmap.checkpoint.com/'
   },
   {
-    title: 'Security Toolbox',
+    title: 'Security Intelligence',
     description: 'Essential tools and resources for security testing and analysis.',
     icon: Toolbox,
     action: 'Explore Tools',
