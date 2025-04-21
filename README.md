@@ -1,12 +1,35 @@
-# React + Vite
+# ThreatSim 🚨🕵️‍♂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ThreatSim** is a gamified cybersecurity training platform built to make learning cyber defense engaging, visual, and interactive. Users can track real-time attacks, complete training challenges, and level up their cyber-awareness — all through an immersive dashboard.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌍 **Live Cyber Attack Tracker** – Visualize global cyber threats as they happen.
+- 🧠 **AI-Powered Adaptive Learning** – Custom-tailored content using Google Gemini API.
+- 🕹️ **Gamified Challenges** – Complete security tasks and earn rewards.
+- 📊 **Progress Dashboard** – Track your achievements and learning journey.
+- 🧑‍💻 **Leaderboard System** – Compete and compare scores with others.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Layer         | Technology                             |
+|---------------|-----------------------------------------|
+| Frontend      | React.js (with Vite)                    |
+| Styling       | Tailwind CSS                            |
+| Backend       | Supabase (Auth & DB)                    |
+| AI Integration| Gemini API (Google)                     |
+| Game Engine   | Python (for game development)           |
+
+---
+
+## 👥 Team
+
+- **Frontend** – Utkarsh Bahuguna  
+- **Backend** – Tanush  
+- **Game Dev** – Vansh  
+- **AI & Learning Logic** – Shivansh  
+
+---
+
