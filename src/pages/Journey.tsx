@@ -53,7 +53,7 @@ function Journey() {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-end mb-8">
           <Link
-            to="/login"
+            to="https://threat-sim-auth.vercel.app/"
             className="px-6 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 transition-colors text-white font-medium"
           >
             Login
