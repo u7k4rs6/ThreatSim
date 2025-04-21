@@ -74,6 +74,8 @@ function Journey() {
             <a
               key={index}
               href={card.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group block p-6 rounded-2xl bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 hover:bg-gray-700/50 transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/10 hover:border-indigo-500/50"
             >
               <div className="flex flex-col h-full">
