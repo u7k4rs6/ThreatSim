@@ -29,7 +29,7 @@ const cards = [
     description: 'Monitor global cyber threats in real-time with our interactive dashboard.',
     icon: Shield,
     action: 'View Dashboard',
-    link: 'https://www.digitalattackmap.com/'
+    link: 'https://threatmap.checkpoint.com/'
   },
   {
     title: 'Security Toolbox',
