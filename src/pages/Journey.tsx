@@ -8,7 +8,7 @@ const cards = [
     description: 'Access comprehensive guides and resources to master cybersecurity fundamentals.',
     icon: BookOpen,
     action: 'Browse Docs',
-    link: 'https://cybersecurityguide.org/resources/'
+    link: 'https://cyberdocs.netlify.app/'
   },
   {
     title: 'Gamified Learning',
