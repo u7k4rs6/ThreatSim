@@ -26,8 +26,8 @@
 
 ## 👥 Team
 
-- **Frontend** – Utkarsh Bahuguna  
-- **Backend** – Tanush  
+- **Frontend & Interactive Labs** – Utkarsh Bahuguna  
+- **Backend & Authentication** – Tanush  
 - **Game Dev** – Vansh  
 - **AI & Learning Logic** – Shivansh  
 
