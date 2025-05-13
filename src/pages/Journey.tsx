@@ -22,7 +22,7 @@ const cards = [
     description: 'Practice in real-world scenarios with our virtual lab environment.',
     icon: Flask,
     action: 'Enter Lab',
-    link: 'https://tryhackme.com/'
+    link: 'https://threatlab.netlify.app/'
   },
   {
     title: 'Threat Map',
