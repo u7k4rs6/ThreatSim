@@ -30,9 +30,9 @@ class GeminiApiService {
   private baseUrl: string;
 
   constructor() {
-    // TODO: Replace with your actual API configuration
-    this.apiKey = process.env.REACT_APP_GEMINI_API_KEY || 'your-api-key-here';
-    this.baseUrl = process.env.REACT_APP_GEMINI_BASE_URL || 'https://generativelanguage.googleapis.com/v1';
+    // Get API configuration from Vite environment variables
+    this.apiKey = import.meta.env.VITE_GEMINI_API_KEY || 'your-api-key-here';
+    this.baseUrl = import.meta.env.VITE_GEMINI_BASE_URL || 'https://generativelanguage.googleapis.com/v1';
   }
 
   /**
