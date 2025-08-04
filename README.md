@@ -2,13 +2,13 @@
 
 **ThreatSim** is a gamified cybersecurity training platform built to make learning cyber defense engaging, visual, and interactive. Users can track real-time attacks, complete training challenges, and level up their cyber-awareness — all through an immersive dashboard.
 
-## 🚀 Features
+## Features
 
-- 🌍 **Live Cyber Attack Tracker** – Visualize global cyber threats as they happen.
-- 🧠 **AI-Powered Adaptive Learning** – Custom-tailored content using Google Gemini API.
-- 🕹️ **Gamified Challenges** – Complete security tasks and earn rewards.
-- 📊 **Progress Dashboard** – Track your achievements and learning journey.
-- 🧑‍💻 **Leaderboard System** – Compete and compare scores with others.
+-  **Live Cyber Attack Tracker** – Visualize global cyber threats as they happen.
+-  **AI-Powered Adaptive Learning** – Custom-tailored content using Google Gemini API.
+-  **Gamified Challenges** – Complete security tasks and earn rewards.
+-  **Progress Dashboard** – Track your achievements and learning journey.
+-  **Leaderboard System** – Compete and compare scores with others.
 
 ---
 
