@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import InteractiveCyberWidget from '../components/InteractiveCyberWidget';
 
 const features = [
   {
@@ -160,48 +161,7 @@ function Journey() {
 
             {/* Right Column - Visual */}
             <div className="lg:col-span-6 flex justify-center">
-              <div className="relative w-full max-w-lg">
-                {/* Animated Gradient Background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#5B5FF7]/20 via-[#00C2A8]/20 to-[#FF6B6B]/20 rounded-3xl blur-3xl animate-pulse"></div>
-                
-                {/* Tech Illustration Placeholder */}
-                <div className="relative bg-gradient-to-br from-[#1A1B2E] to-[#0E0E1A] border border-gray-700/50 rounded-3xl p-12 backdrop-blur-sm">
-                  <div className="grid grid-cols-3 gap-4">
-                    {/* Cyber nodes */}
-                    {[...Array(9)].map((_, i) => (
-                      <div
-                        key={i}
-                        className={`w-12 h-12 rounded-full border-2 flex items-center justify-center ${
-                          i === 4 
-                            ? 'border-[#5B5FF7] bg-[#5B5FF7]/20 animate-pulse' 
-                            : 'border-gray-600 bg-gray-800/50'
-                        }`}
-                        style={{
-                          animationDelay: `${i * 0.2}s`
-                        }}
-                      >
-                        <div className={`w-2 h-2 rounded-full ${
-                          i === 4 ? 'bg-[#5B5FF7]' : 'bg-gray-500'
-                        }`}></div>
-                      </div>
-                    ))}
-                  </div>
-                  
-                  {/* Connecting lines */}
-                  <div className="absolute inset-0 pointer-events-none">
-                    <svg className="w-full h-full">
-                      <defs>
-                        <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#5B5FF7" stopOpacity="0.6" />
-                          <stop offset="100%" stopColor="#00C2A8" stopOpacity="0.6" />
-                        </linearGradient>
-                      </defs>
-                      <line x1="50%" y1="20%" x2="50%" y2="80%" stroke="url(#lineGradient)" strokeWidth="2" className="animate-pulse" />
-                      <line x1="20%" y1="50%" x2="80%" y2="50%" stroke="url(#lineGradient)" strokeWidth="2" className="animate-pulse" style={{animationDelay: '0.5s'}} />
-                    </svg>
-                  </div>
-                </div>
-              </div>
+              <InteractiveCyberWidget />
             </div>
           </div>
         </div>
